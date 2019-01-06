@@ -1,0 +1,53 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+canvas {
+  display: block;
+}
+
+
+form {
+  width: 100%;
+  max-width: 400px;
+  text-align: center;
+  border: solid 1px #c2c2c2;
+  padding-bottom: 10px;
+  margin: auto;
+  background: #fafafa;
+}
+input[type=textfield] {
+    width: 75%;
+    padding: 16px 32px;
+    font-size: 16px;
+    margin: 8px 0;
+    border: 1px solid silver;
+    border-radius: 1px;
+    text-align: left;
+    color: #333;
+    background: #FFFFFF;
+}
+input[type=button], input[type=submit], input[type=reset] {
+    background-color: #7401DF;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    font-size: 16px;
+    min-width: 21%;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+input[type=button]:hover, input[type=submit]:hover, input[type=reset]:hover {
+  background-color: #170B3B;
+}
+#demotext {
+text-shadow: 2px 2px 0 #4074b5, 2px -2px 0 #4074b5, -2px 2px 0 #4074b5, -2px -2px 0 #4074b5, 2px 0px 0 #4074b5, 0px 2px 0 #4074b5, -2px 0px 0 #4074b5, 0px -2px 0 #4074b5, -10px 12px 13px rgba(148,2,164,0.59);
+
+color: #FFFFFF;
+background: #81DAF5;
+}
+#borderDemo {
+border: 14px inset rgba(18,201,189,0.85);
+background: #81DAF5;
+}
