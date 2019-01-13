@@ -1,6 +1,7 @@
 # Repositório para Estudos em JS com P5 
 ### [Referência do p5.js](https://p5js.org/get-started/)
 ### [Editor do p5.js](https://editor.p5js.org/)
+### [ml5 - machine learning] (https://ml5js.org/)
 >> **para abrir os arquivos html, é necessário ter todo o repositório baixado.** 
 
 |Estudos|Descrição|
@@ -11,6 +12,7 @@
 **Localizador**|Estudo sobre geo localização sem auxilio aparente do google-maps
 **Calculadora Binária**| né... ;)
 **Gráfico Pizza**| Projeto para uso futuro em apis com geração de gráficos dinámicos 
+**Detector de objetos**| Machine learning usando a biblioteca ml5, detecta objetos com uso da webcam
 
 
 
