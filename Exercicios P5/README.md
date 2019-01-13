@@ -1,7 +1,7 @@
 # Repositório para Estudos em JS com P5 
 ### [Referência do p5.js](https://p5js.org/get-started/)
 ### [Editor do p5.js](https://editor.p5js.org/)
-### [ml5 - machine learning] (https://ml5js.org/)
+### [ml5 - machine learning](https://ml5js.org/)
 >> **para abrir os arquivos html, é necessário ter todo o repositório baixado.** 
 
 |Estudos|Descrição|
