@@ -1,19 +1,17 @@
-    button {
-      margin: 6px 6px 6px 0;
-      padding: 4px;
-      font-size: 14px;
-    }
+.tema {
+    background: #314755;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #26a0da, #314755);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #26a0da, #314755);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
 
-    video {
-      width: 300;
-      height: 300;
-    }
-
-    p {
-      display: inline;
-      font-size: 16px;
-    }
-
-    .emoji {
-      font-size: 24px;
-    }
+.corpo {
+    text-align: justify;
+    padding-top: 50px;
+    padding-right: 80px;
+    padding-bottom: 50px;
+    padding-left: 820px;
+    color: #DBD4B4;
+}
