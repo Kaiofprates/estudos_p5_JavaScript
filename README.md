@@ -13,9 +13,10 @@
 **Calculadora Binária**| né... ;)
 **Gráfico Pizza**| Projeto para uso futuro em apis com geração de gráficos dinámicos 
 **Detector de objetos**| Machine learning usando a biblioteca [ml5](https://ml5js.org/), detecta objetos com uso da webcam
-**Gerador de QRcode**|Avançado gerador de Qrcode com opção de cores, tamanho e estilo. Faz uso de três bibliotecas js : [p5](https://p5js.org/get-started/) - [p5.GUI](https://github.com/bitcraftlab/p5.gui) -[Qrious](https://github.com/neocotic/qrious)
+**Gerador de QRcode**|Avançado gerador de Qrcode com opção de cores, tamanho e estilo. Faz uso de três bibliotecas js : [p5](https://p5js.org/get-started/) - [p5.GUI](https://github.com/bitcraftlab/p5.gui) -[Qrious](https://github.com/neocotic/qrious) .  Exemplo online em : http://deltreesociety.tech/qr/
 
 
 
 ![site](https://p5js.org/assets/img/p5js.svg)
 >> o arquivo indispensável é o skecth, e  para que ele funcione é necessário que ele esteja  na pasta com os módulos do p5.js.
+
