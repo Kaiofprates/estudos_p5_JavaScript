@@ -1,0 +1,31 @@
+.qs_title_bar,
+.qs_main,
+.qs_content {
+    color: #fff;
+    background: linear-gradient(rgb(41, 128, 185), rgb(44, 62, 80));
+}
+
+.qs_container {
+    color: #fff;
+    background: linear-gradient(rgb(69, 127, 202), rgb(86, 145, 200));
+}
+
+canvas {
+    margin-top: 2%;
+    padding: 30px;
+}
+
+* {
+    font-family: 'Ubuntu Condensed', sans-serif;
+    font-size: 1.5em;
+}
+
+#qr {}
+
+body {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: #FFF;
+    background: linear-gradient(to right, rgb(32, 0, 44), rgb(203, 180, 212));
+}

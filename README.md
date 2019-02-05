@@ -12,7 +12,8 @@
 **Localizador**|Estudo sobre geo localização sem auxilio aparente do google-maps
 **Calculadora Binária**| né... ;)
 **Gráfico Pizza**| Projeto para uso futuro em apis com geração de gráficos dinámicos 
-**Detector de objetos**| Machine learning usando a biblioteca ml5, detecta objetos com uso da webcam
+**Detector de objetos**| Machine learning usando a biblioteca [ml5](https://ml5js.org/), detecta objetos com uso da webcam
+**Gerador de QRcode**|Avançado gerador de Qrcode com opção de cores, tamanho e estilo. Faz uso de três bibliotecas js : [p5](https://p5js.org/get-started/) - [p5.GUI](https://github.com/bitcraftlab/p5.gui) -[Qrious](https://github.com/neocotic/qrious)
 
 
 
