@@ -1,0 +1,103 @@
+<html>
+<header>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@8"></script>
+    <link href="https://fonts.googleapis.com/css?family=Allerta+Stencil|Monoton" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+</header>
+<body>
+<div id="app" v-bind:title="title">
+<span id="titulo">
+{{title}}
+</span>
+
+<input id="campo" type="text" size="30" placeholder="email" v-model="email">
+<input id="campo" type="password" size="30" placeholder="senha" v-model="senha">
+<input id="campo" type="password" size="30" placeholder="repita a senha" v-model="senha_confirm">
+<button id="but"  v-on:click="send">Enviar</button>
+
+</div>
+</body>
+<script>
+var app = new Vue({
+
+    el: '#app',
+    data: {
+        title:'Novo formulário com Vue',
+        email: null,
+        senha: null,
+        senha_confirm: null,
+        validade: false
+    },
+    methods:{
+
+        send: function(){
+
+try{
+    var access_key = 'ACCESS_KEY';
+    var email_address = this.email;
+
+// verify email address via AJAX call
+$.ajax({
+    url: 'http://apilayer.net/api/check?access_key=' + access_key + '&email=' + email_address,   
+    dataType: 'jsonp',
+    success: function(json) {
+     if(json.format_valid ||json.smtp_check ){
+      this.validate = true;
+      console.log(this.validate)
+     }
+    console.log(json.score);
+                
+    }
+});
+
+}catch(error){
+    console.log(error)
+}     
+
+
+ if(!this.email || !this.senha || !this.senha_confirm){
+                    Swal.fire({
+  position: 'center',
+  type: 'error',
+  title: 'Verifique campos vazios',
+  showConfirmButton: false,
+  timer: 1500
+})
+            }else if(this.senha != this.senha_confirm){
+               Swal.fire({
+  position: 'center',
+  type: 'error',
+  title: 'As senhas informadas não conferem!',
+  showConfirmButton: false,
+  timer: 1500
+})
+
+            }else if(!this.validate){
+  Swal.fire({
+  position: 'center',
+  type: 'error',
+  title: 'Email invalido',
+  showConfirmButton: false,
+  timer: 1500})
+}else{
+Swal.fire({
+  position: 'center',
+  type: 'success',
+  title: 'Cadastro efetuado com sucesso!',
+  showConfirmButton: false,
+  timer: 1500
+})
+
+            }
+
+
+        }
+
+    }
+})
+</script>
+
+</html>
