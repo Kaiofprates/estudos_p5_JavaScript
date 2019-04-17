@@ -33,12 +33,3 @@ function draw() {
 
 }
 
-function keyPressed() {
-    switch (key) {
-        // type [F1] to hide / show the GUI
-        case 'p':
-            visible = !visible;
-            if (visible) { gui.show(); } else { gui.hide(); }
-            break;
-    }
-}

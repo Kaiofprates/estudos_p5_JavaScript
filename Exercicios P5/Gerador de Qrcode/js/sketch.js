@@ -101,17 +101,6 @@ function draw() {
 }
 
 
-// check for keyboard events
-function keyPressed() {
-    switch (key) {
-        // type [F1] to hide / show the GUI
-        case 'p':
-            visible = !visible;
-            if (visible) gui.show();
-            else gui.hide();
-            break;
-    }
-}
 
 
 // draw a regular n-gon with n sides
