@@ -1,0 +1,29 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+canvas {
+  display: block;
+  border-style: double;
+  border-radius: 20px 20px;
+  border-color: white;
+  background: linear-gradient(to right, rgb(222, 97, 97), rgb(38, 87, 235));
+}
+#app {
+  width: 195px;
+  height: 50px;
+  border-style: double;
+  border-radius: 10px;
+  border-color: white;
+  margin-bottom: 10px;
+  background: linear-gradient(to right, rgb(222, 97, 97), rgb(38, 87, 235));
+
+}
+
+input {
+  color: blue;
+  margin-left: 15px;
+  margin-top: 10px;
+  background-color: #58D3F7;
+  
+}
